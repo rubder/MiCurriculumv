@@ -1,0 +1,69 @@
+
+ 
+ body{background-color: black;
+ color: rgb(255, 255, 255);
+}
+ 
+ /* Hero Section */
+
+  #Hero-Section {
+    background-image: url("../asesst/img/top_banner_technologies.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;  }
+  
+  /* Acerca de mi */
+
+  #Acerca-de-mi ul{
+    list-style-type: none;
+   
+  }
+  #Acerca-de-mi {
+    background-color: #28030B;
+    
+
+  }
+
+/* Mis datos personales */
+
+#Datos-personales  ul{
+    list-style-type: none;
+}
+  /* Mis trabajos */
+  
+  #Mis-trabajos .image-top {
+   
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+  }
+  #Mis-trabajos{
+    background-image: var(--bs-gradient);
+  ;
+  }
+  #Mis-trabajos .card{
+    background-color: #28030B;
+    color: #ffffff;
+  }
+  
+  /* Contacto */
+  
+  #Contacto form label {
+    font-weight: 700;
+    color: #ffffff;
+  }
+  
+  @media (max-width: 768px) {
+    #Contacto form label {
+      font-weight: 400;
+    }
+  
+    .navbar-brand{
+      width: 100px;
+    }
+  
+  }
+  
+ 
